@@ -17,9 +17,10 @@
       class="w-full h-[796px] bg-[url('../assets/SubContainer.png')] bg-contain"
     >
       <div
-        class="laptop-xl:max-w-[1597px] h-[120px] mx-auto flex items-center justify-between"
+        class="mx-auto flex items-center justify-between phone-small:my-[18px] max-phone-small:h-[50px] max-w-[1279px] laptop-xl:max-w-[1597px] max-h-[120px] my-[22px]"
       >
         <svg
+          class="max-w-[116px] h-[35px] w-full laptop-xl:max-w-[199px] laptop-xl:h-[60px] phone-small:max-w-[165px] phone-small:h-[50px]"
           width="199"
           height="60"
           viewBox="0 0 199 60"
@@ -79,10 +80,10 @@
         </svg>
 
         <nav
-          class="laptop-xl: bg-[#0F0F0F] w-full max-w-[555px] h-[75px] text-[#BFBFBF] text-lg"
+          class="hidden phone-small:block w-full max-w-[412px] max-h-[75px] laptop-xl:block laptop-xl:max-w-[555px] bg-[#0F0F0F] text-[#BFBFBF] text-lg rounded-[12px]"
         >
           <ul
-            class="laptop-xl:text-center flex items-center justify-evenly ml-[10px] h-[55px] my-[10px] mr-[40px] max-w-[505px]"
+            class="laptop-xl:max-w-[505px] ml-[10px] phone-small:ml-[8px] w-full max-w-[374px] text-sm flex items-center justify-between h-[55px] my-[8px]"
           >
             <li class="cursor-pointer active" id="li1">Home</li>
             <li class="cursor-pointer" id="li2">Movies & Shows</li>
@@ -90,6 +91,77 @@
             <li class="cursor-pointer" id="li4">Subscriptions</li>
           </ul>
         </nav>
+
+        <div
+          class="phone-small: w-full max-w-[62px] items-center justify-between flex laptop-xl:max-w-[98px]"
+        >
+          <svg
+            class="hidden phone-small:w-[24px] h-[24px] phone-small:block laptop-xl:w-[34px] laptop-xl:block laptop-xl:h-[34px]"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M29.75 29.75L22.388 22.388M22.388 22.388C24.3108 20.4653 25.5 17.809 25.5 14.875C25.5 9.00697 20.743 4.25 14.875 4.25C9.00697 4.25 4.25 9.00697 4.25 14.875C4.25 20.743 9.00697 25.5 14.875 25.5C17.809 25.5 20.4653 24.3108 22.388 22.388Z"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="hidden phone-small:w-[24px] h-[24px] phone-small:block laptop-xl:w-[34px] laptop-xl:block laptop-xl:h-[34px]"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.0472 24.1991C23.7312 23.8807 26.3193 23.2497 28.7741 22.3435C26.7386 20.0841 25.4997 17.093 25.4997 13.8125V12.8197C25.4999 12.7965 25.5 12.7732 25.5 12.75C25.5 8.05558 21.6944 4.25 17 4.25C12.3056 4.25 8.5 8.05558 8.5 12.75L8.49972 13.8125C8.49972 17.093 7.2608 20.0841 5.22534 22.3435C7.68032 23.2498 10.2686 23.8808 12.9528 24.1992M21.0472 24.1991C19.72 24.3565 18.3693 24.4375 16.9997 24.4375C15.6303 24.4375 14.2798 24.3565 12.9528 24.1992M21.0472 24.1991C21.1789 24.6091 21.25 25.0462 21.25 25.5C21.25 27.8472 19.3472 29.75 17 29.75C14.6528 29.75 12.75 27.8472 12.75 25.5C12.75 25.0463 12.8211 24.6091 12.9528 24.1992"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="block phone-small:hidden laptop-xl:hidden"
+            width="54"
+            height="54"
+            viewBox="0 0 54 54"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="1.5"
+              y="1.5"
+              width="51"
+              height="51"
+              rx="7.5"
+              fill="#1A1A1A"
+            />
+            <rect
+              x="1.5"
+              y="1.5"
+              width="51"
+              height="51"
+              rx="7.5"
+              stroke="#262626"
+              stroke-width="3"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18 21.75C18 21.3358 18.3358 21 18.75 21H35.25C35.6642 21 36 21.3358 36 21.75C36 22.1642 35.6642 22.5 35.25 22.5H18.75C18.3358 22.5 18 22.1642 18 21.75ZM18 27C18 26.5858 18.3358 26.25 18.75 26.25H35.25C35.6642 26.25 36 26.5858 36 27C36 27.4142 35.6642 27.75 35.25 27.75H18.75C18.3358 27.75 18 27.4142 18 27ZM26.25 32.25C26.25 31.8358 26.5858 31.5 27 31.5H35.25C35.6642 31.5 36 31.8358 36 32.25C36 32.6642 35.6642 33 35.25 33H27C26.5858 33 26.25 32.6642 26.25 32.25Z"
+              fill="white"
+            />
+          </svg>
+        </div>
       </div>
     </header>
     <script src="./script.js"></script>
