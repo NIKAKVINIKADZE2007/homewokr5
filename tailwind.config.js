@@ -6,6 +6,9 @@ module.exports = {
       'laptop-xl': '1440px',
       'phone-small': '390px',
     },
+    fontFamily: {
+      manrope: ['manrope', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
