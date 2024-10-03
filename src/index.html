@@ -12,12 +12,12 @@
     <link href="./styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="./moreStyles.css" />
   </head>
-  <body class="bg-[#141414]">
+  <body class="bg-[#141414] font-manrope">
     <header
-      class="w-full h-[796px] bg-[url('../assets/SubContainer.png')] bg-contain"
+      class="h-[500px] w-full phone-small:h-[600px] bg-[url('../assets/SubContainer.png')] bg-cover laptop-xl:h-[796px]"
     >
       <div
-        class="mx-auto flex items-center justify-between phone-small:my-[18px] max-phone-small:h-[50px] max-w-[1279px] laptop-xl:max-w-[1597px] max-h-[120px] my-[22px]"
+        class="my-[40px] h-[48px] max-w-[358px] mx-auto flex items-center justify-between phone-small:max-w-[1279px] phone-small:my-[18px] w-full phone-small:h-[98px] laptop-xl:max-w-[1597px] max-h-[120px] laptop-xl:my-[22px]"
       >
         <svg
           class="max-w-[116px] h-[35px] w-full laptop-xl:max-w-[199px] laptop-xl:h-[60px] phone-small:max-w-[165px] phone-small:h-[50px]"
@@ -93,7 +93,7 @@
         </nav>
 
         <div
-          class="phone-small: w-full max-w-[62px] items-center justify-between flex laptop-xl:max-w-[98px]"
+          class="cursor-pointer phone-small: w-full max-w-[62px] items-center justify-between flex laptop-xl:max-w-[98px]"
         >
           <svg
             class="hidden phone-small:w-[24px] h-[24px] phone-small:block laptop-xl:w-[34px] laptop-xl:block laptop-xl:h-[34px]"
@@ -164,6 +164,47 @@
         </div>
       </div>
     </header>
+    <section
+      class="w-full flex flex-col text-center items-center phone-small:max-w-[1140px] laptop-xl:max-w-[1096px] justify-center mx-auto laptop-xl:mb-[14px]"
+    >
+      <h1
+        class="text-[28px] text-white phone-small:text-[48px] laptop-xl:text-[58px] font-bold"
+      >
+        The Best Streaming Experience
+      </h1>
+      <p
+        class="hidden text-[#999999] phone-small:text-sm phone-small:block laptop-xl: text-lg laptop-xl:block"
+      >
+        StreamVibe is the best streaming experience for watching your favorite
+        movies and shows on demand, anytime, anywhere. With StreamVibe, you can
+        enjoy a wide variety of content, including the latest blockbusters,
+        classic movies, popular TV shows, and more. You can also create your own
+        watchlists, so you can easily find the content you want to watch.
+      </p>
+      <p class="text-[#999999] text-[14px] phone-small:hidden laptop-xl:hidden">
+        StreamVibe is the best streaming experience for watching your favorite
+        movies and shows on demand, anytime, anywhere.
+      </p>
+      <button
+        class="bg-[#E50000] rounded-lg justify-center w-full text-white flex items-center phone-small:max-w-[209px] phone-small:h-[52px] phone-small:text-[14px] mt-[40px] laptop-xl:max-w-[251px] h-[64px] text-xl laptop-xl:my-[50px]"
+      >
+        <svg
+          width="29"
+          height="28"
+          viewBox="0 0 29 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.75 6.59479C5.75 4.93097 7.53383 3.87624 8.9917 4.67807L22.4557 12.0833C23.9668 12.9144 23.9668 15.0856 22.4557 15.9167L8.9917 23.3219C7.53383 24.1238 5.75 23.069 5.75 21.4052V6.59479Z"
+            fill="white"
+          />
+        </svg>
+        Start Watching Now
+      </button>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
