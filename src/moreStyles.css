@@ -5,3 +5,10 @@
   color: #ffffff !important;
   padding: 10px;
 }
+
+.slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -26,3 +26,26 @@ document.getElementById('li3').addEventListener('click', () => {
 document.getElementById('li4').addEventListener('click', () => {
   changeActive('li4');
 });
+
+//swiper
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  spaceBetween: 30,
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    390: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 30,
+    },
+  },
+});
