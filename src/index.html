@@ -21,7 +21,7 @@
       class="h-[500px] w-full phone-small:h-[600px] bg-[url('../assets/SubContainer.png')] bg-cover laptop-xl:h-[796px]"
     >
       <div
-        class="my-[40px] h-[48px] max-w-[358px] mx-auto flex items-center justify-between phone-small:max-w-[1279px] phone-small:my-[18px] w-full phone-small:h-[98px] laptop-xl:max-w-[1597px] max-h-[120px] laptop-xl:my-[22px]"
+        class="my-[40px] h-[48px] max-w-[358px] mx-[auto] px-3 flex items-center justify-between phone-small:max-w-[1279px] phone-small:my-[18px] w-full phone-small:h-[98px] laptop-xl:max-w-[1597px] max-h-[120px] laptop-xl:my-[22px]"
       >
         <svg
           class="max-w-[116px] h-[35px] w-full laptop-xl:max-w-[199px] laptop-xl:h-[60px] phone-small:max-w-[165px] phone-small:h-[50px]"
@@ -87,7 +87,7 @@
           class="hidden phone-small:block w-full max-w-[412px] max-h-[75px] laptop-xl:block laptop-xl:max-w-[555px] bg-[#0F0F0F] text-[#BFBFBF] text-lg rounded-[12px]"
         >
           <ul
-            class="laptop-xl:max-w-[505px] ml-[10px] phone-small:ml-[8px] w-full max-w-[374px] text-sm flex items-center justify-between h-[55px] my-[8px]"
+            class="w-full laptop-xl:max-w-[505px] ml-[10px] phone-small:ml-[8px] max-w-[374px] text-sm flex items-center justify-between h-[55px] my-[8px]"
           >
             <li class="cursor-pointer active" id="li1">Home</li>
             <li class="cursor-pointer" id="li2">Movies & Shows</li>
@@ -169,7 +169,7 @@
       </div>
     </header>
     <section
-      class="w-full flex flex-col text-center items-center phone-small:max-w-[1140px] laptop-xl:max-w-[1096px] justify-center mx-auto laptop-xl:mb-[14px]"
+      class="w-full px-3 flex flex-col text-center items-center phone-small:max-w-[1140px] laptop-xl:max-w-[1096px] justify-center mx-auto laptop-xl:mb-[14px]"
     >
       <h1
         class="text-[28px] text-white phone-small:text-[48px] laptop-xl:text-[58px] font-bold"
@@ -211,7 +211,9 @@
     </section>
 
     <section>
-      <div class="swiper w-full laptop-xl: h-[342px] phone-small:h-[282px]">
+      <div
+        class="swiper px-3 w-full laptop-xl: h-[342px] phone-small:h-[282px]"
+      >
         <!-- Additional required wrapper -->
         <div
           class="swiper-wrapper h-full max-w-[358px] flex items-center mx-auto phone-small:max-w-[1279px] laptop-xl:max-w-[1597px]"
@@ -399,7 +401,7 @@
     </section>
 
     <section
-      class="w-full mt-[80px] max-w-[361px] mx-auto phone-small:max-w-[1279px] phone-small:mt-[120px] laptop-xl:max-w-[1579px] laptop-small:mt-[150px]"
+      class="w-full px-3 mt-[80px] max-w-[361px] mx-auto phone-small:max-w-[1279px] phone-small:mt-[120px] laptop-xl:max-w-[1579px] laptop-small:mt-[150px]"
     >
       <h1
         class="text-[20px] mb-[10px] text-white font-bold laptop-xl:text-[38px] phone-small:text-[28px]"
@@ -420,11 +422,11 @@
       </p>
 
       <div
-        class="w-full grid grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr] gap-[20px_0px] grid-cols-[1fr] phone-small:h-[480px] phone-small:grid-rows-[230px_230px] phone-small:grid-cols-[1fr_1fr_1fr] phone-small:gap-[20px] laptop-xl:h-[596px] laptop-xl:grid-cols-[1fr_1fr_1fr] laptop-xl:grid-rows-[283px_283px] laptop-xl:gap-[30px]"
+        class="max-w-[361px] h-[1004px] grid-cols-1 grid-rows-6 grid gap-4 mx-auto laptop-xl:max-w-[1597px] laptop-xl:h-[596px] phone-small:max-w-[1279px] phone-small:h-[480px] phone-small:grid-cols-3 phone-small:grid-rows-2"
       >
         <!-- grid 1 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] h-[175px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -511,10 +513,8 @@
             Download our app from the Google Play Store or the Apple App Store
           </p>
         </div>
-
-        <!-- grid 2 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center h-[175px] laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -608,10 +608,8 @@
             Download our app from the Google Play Store or the Apple App Store
           </p>
         </div>
-
-        <!-- grid 3 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] h-[175px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -709,10 +707,8 @@
             Download our app from the Google Play Store or the Apple App Store
           </p>
         </div>
-
-        <!-- grid 4 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] h-[175px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -810,9 +806,8 @@
             Download our app from the Google Play Store or the Apple App Store
           </p>
         </div>
-        <!-- grid 5 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] h-[175px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -909,9 +904,8 @@
             Download our app from the Google Play Store or the Apple App Store
           </p>
         </div>
-        <!-- grid 6 -->
         <div
-          class="bg-gradient-to-tr flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] w-[full] h-[175px] justify-center phone-small:h-[230px] laptop-xl:h-[283px]"
+          class="max-w-[361px] h-[175px] bg-gradient-to-tr rounded-[10px] flex flex-col from-[#0F0F0F] to-[rgba(229,0,0,0.1)] justify-center laptop-xl:max-w-[512px] laptop-xl:h-[283px] phone-small:max-w-[413px] phone-small:h-[230px]"
         >
           <div
             class="flex mx-auto w-full items-center max-w-[313px] mb-[20px] phone-small:max-w-[333px] phone-small:mb-[24px] laptop-xl:mb-[30px] laptop-xl:max-w-[412px]"
@@ -1006,6 +1000,305 @@
           >
             StreamVibe is optimized for both Android and iOS smartphones.
             Download our app from the Google Play Store or the Apple App Store
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="mx-auto flex flex-col justify-between mt-[80px] px-3 w-full h-[1002px] max-w-[358px] phone-small: phone-small:max-w-[1280px] phone-small:px-6 phone-small:mt-[120px] laptop-xl:mt-[150px] phone-small:h-[582px] laptop-xl:h-[734px] laptop-xl:max-w-[1596px]"
+    >
+      <!-- top div  -->
+      <div
+        class="w-full flex flex-col items-start h-[172px] max-w-[358px] phone-small:max-w-[1280px] justify-between laptop-xl:max-w-[1597px] phone-small:flex-row phone-small:items-end laptop-xl:h-[98px] phone-small:h-[76px]"
+      >
+        <div>
+          <h1
+            class="font-bold text-white text-[20px] phone-small:text-[28px] laptop-xl:text-[38px]"
+          >
+            Frequently Asked Questions
+          </h1>
+          <p
+            class="text-[#999999] text-[14px] phone-small:text-[16px] laptop-xl:text-[18px]"
+          >
+            Got questions? We've got answers! Check out our FAQ section to find
+            answers to the most common questions about StreamVibe.
+          </p>
+        </div>
+        <button
+          class="w-full text-white bg-[#E50000] text-[14px] font-semibold max-w-[140px] h-[49px] rounded-md laptop-xl:rounded-xl laptop-xl:text-[18px] laptop-xl:max-w-[176px] laptop-xl:h-[63px]"
+        >
+          Ask a Question
+        </button>
+      </div>
+
+      <!-- bottom div  -->
+      <div
+        class="flex flex-wrap flex-col h-[1002px] max-w-[358px] phone-small:max-w-[1280px] phone-small:h-[448px] laptop-xl:h-[556px] laptop-xl:max-w-[1597px]"
+      >
+        <!-- first div  -->
+        <div
+          class="px-[10px] py-[40px] flex-1 max-w-[358px] h-auto phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
+          </p>
+        </div>
+
+        <!-- second div  -->
+
+        <div
+          class="px-[10px] py-[40px] flex-1 max-w-[358px] h-auto phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
+          </p>
+        </div>
+
+        <!-- third div  -->
+
+        <div
+          class="px-[10px] py-[40px] flex-1 max-w-[358px] h-auto phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
+          </p>
+        </div>
+
+        <!-- forth div  -->
+        <div
+          class="px-[10px] py-[40px] flex-1 max-w-[358px] h-auto phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
+          </p>
+        </div>
+
+        <!-- fifth div  -->
+        <div
+          class="px-[10px] py-[40px] max-w-[358px] phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
+          </p>
+        </div>
+
+        <!-- sixth div  -->
+        <div
+          class="px-[10px] py-[40px] flex-1 max-w-[358px] h-auto phone-small:p-[24px] phone-small:max-w-[620px] laptop-xl:max-w-[758px] laptop-xl:h-[127px]"
+        >
+          <div class="flex items-center justify-between">
+            <button
+              class="max-w-[42px] w-full h-[46px] rounded-md text-white font-semibold bg-[#1f1f1f] phone-small:max-w-[50px] phone-small:h-[54px]"
+            >
+              01
+            </button>
+            <div
+              class="max-w-[240px] phone-small:max-w-[466px] laptop-xl:max-w-[558px]"
+            >
+              <h1 class="font-medium text-white text-[18px]">
+                What is StreamVibe?
+              </h1>
+              <p
+                class="hidden phone-small:block text-[#999999] laptop-xl:text-[18px]"
+              >
+                StreamVibe is a streaming service that allows you to watch
+                movies and shows on demand.
+              </p>
+            </div>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.75 13.75H6.25C5.91848 13.75 5.60054 13.8817 5.36612 14.1161C5.1317 14.3505 5 14.6685 5 15C5 15.3315 5.1317 15.6495 5.36612 15.8839C5.60054 16.1183 5.91848 16.25 6.25 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6495 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <p
+            class="block text-[#999999] text-[14px] mt-[12px] phone-small:hidden"
+          >
+            StreamVibe is a streaming service that allows you to watch movies
+            and shows on demand.
           </p>
         </div>
       </div>
