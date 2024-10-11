@@ -49,3 +49,14 @@ const swiper = new Swiper('.swiper', {
     },
   },
 });
+
+function removeActive(id) {
+  let curentActive = document.querySelector('.activeM');
+  if (curentActive.id !== id) {
+    curentActive.classList.remove('activeM');
+
+    let newActive = document.getElementById(id);
+
+    newActive.classList.add('activeM');
+  }
+}
